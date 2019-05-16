@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nixie+One|Playfair+Display+SC|Questrial|Quicksand|Work+Sans');
+
 
 body,html {
   padding: 0;
   margin: 0;
+  background-image: URL("./image/background.jpg");
+  font-family: 'Nixie One', cursive;
+
 }
 
 .icons{
-  color: gray; 
+  color: rgb(85, 78, 78); 
   position: relative;
   transition: all .2s ease-in-out; 
-  margin: 25px;
+  margin: 35px;
 }
 
 .icons:hover{
@@ -21,6 +26,11 @@ li {
   margin: 15px;
 }
 
+a {
+ text-decoration: none;
+ color: black;
+}
+
 .nav-container {
   display: flex;
   text-align: center;
@@ -29,4 +39,14 @@ li {
 
 .name{
   padding: 10px;
+  font-size: 5em;
+  letter-spacing: 10px;
+  color: rgb(56, 50, 50);
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
 }
