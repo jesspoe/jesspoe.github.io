@@ -44,9 +44,67 @@ a {
   color: rgb(56, 50, 50);
 }
 
-.panel {
-  /* needed for the flex layout*/
-  margin-left: 5px;
-  margin-right: 5px;
-  flex: 1 1 200px;
+
+.wrapper {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-template-rows: 100px 450px 450px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.header {
+  grid-row: 1/1;
+  grid-column: 1 / 4;
+  background-color: blue;
+}
+
+.footer {
+  grid-row: 4/4;
+  grid-column: 1 / 4;
+  background-color: blue;
+}
+
+.panel{
+  height: 100%;
+  width: 100%;
+}
+
+.a {
+  grid-row: 2/2;
+  grid-column: 1 / 2;
+  margin: 10px;
+}
+
+.b{
+  grid-row: 2/2;
+  grid-column: 2 / 3;
+  margin: 10px;
+
+}
+
+.c{
+  grid-row: 2/2;
+  grid-column: 3 / 3;
+  margin: 10px;
+}
+
+.d{
+  grid-row: 3/3;
+  grid-column: 1 /2;
+  margin: 10px;
+}
+
+.e{
+  grid-row: 3/3;
+  grid-column: 2 /3;
+  margin: 10px;
+}
+
+ img{
+  height: 400px;
+  width:500px;
+  margin: 3px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
 }
