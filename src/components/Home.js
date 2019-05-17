@@ -15,6 +15,7 @@ class Home extends Component {
         <div className="nav-container">
           <ul>
             <h2 className="name">Jessica Poe</h2>
+            <h3>Web Developer</h3>
             <li>
               <a href={Resume} target="_blank"><FontAwesomeIcon className="icons" size="6x" icon={['fas', 'user']} /></a>
               <p>Resume</p>

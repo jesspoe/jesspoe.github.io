@@ -33,15 +33,18 @@ class Projects extends Component {
           </Link></header>
 
         <div class="panel a" >
-          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <frontPoem key="front" onClick={this.handleClick}>
+          <ReactCardFlip isFlipped={this.state.isFlipped} flipSpeedFrontToBack=".9" flipDirection="horizontal">
+            <div key="front" onClick={this.handleClick}>
               <img src={Poems} alt="Poems" />
-            </frontPoem>
+            </div>
 
-            <backPoem key="back">
-              <a href="https://poems4kids.herokuapp.com/">Try Poems4Kids Here!</a>
-              <button onClick={this.handleClick}>Flip Back</button>
-            </backPoem>
+            <div key="back" className="back">
+              <h3 align="center">Poems4Kids</h3>
+              <p>A web app created to assist kids in learning how to read by recognizing sight words. Users also have an opportunity to develop
+                writing and rhyming skills. Click the words in the poem to hear them! </p>
+              <p className="card-link"><a href="https://poems4kids.herokuapp.com/" target="blank">Poems4Kids on Heroku!</a></p>
+              <button className="flip-button" onClick={this.handleClick}>Flip Back</button>
+            </div>
           </ReactCardFlip>
         </div>
 

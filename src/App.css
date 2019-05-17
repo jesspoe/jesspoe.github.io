@@ -38,7 +38,6 @@ a {
 }
 
 .name{
-  padding: 10px;
   font-size: 5em;
   letter-spacing: 10px;
   color: rgb(56, 50, 50);
@@ -111,4 +110,36 @@ a {
   margin: 3px;
   border-radius: 5px;
   box-shadow: 2px 2px 10px black;
+}
+
+.back{
+  height: 400px;
+  width: 500px;
+  margin: 3px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
+  background-color: rgb(233, 211, 204);
+  opacity: .7;
+  line-height: 2;
+  font-family: Comfortaa !important;
+}
+
+p {
+  padding: 10px;
+  margin: 2px;
+}
+
+.flip-button{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 1%;
+  font-family: Comfortaa !important;
+  
+}
+
+.card-link{
+  text-decoration: underline;
 }
