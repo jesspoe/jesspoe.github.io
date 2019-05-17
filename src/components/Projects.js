@@ -3,20 +3,48 @@ import { Link } from 'react-router-dom'
 import Campy from '../image/campy.png'
 import Guestbook from '../image/guestbook.png'
 import Pet from '../image/pet.png'
-import Poems from '../image/poems.png'
 import Veg from '../image/veg.png'
+import ReactCardFlip from 'react-card-flip';
+import Poems from '../image/poems.png'
+
+
+
 
 
 class Projects extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isFlipped: false
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    e.preventDefault();
+    this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+  }
+
   render() {
     return (
       <div class="wrapper">
         <header class="header">
-          <Link title="Home" to="/">Home
-     </Link></header>
+          <Link title="Home" to="/"><h3>Home</h3>
+          </Link></header>
 
-        <div class="panel a">
-          <img src={Poems} alt="Poems" /></div>
+        <div class="panel a" >
+          <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
+            <frontPoem key="front" onClick={this.handleClick}>
+              <img src={Poems} alt="Poems" />
+            </frontPoem>
+
+            <backPoem key="back">
+              <a href="https://poems4kids.herokuapp.com/">Try Poems4Kids Here!</a>
+              <button onClick={this.handleClick}>Flip Back</button>
+            </backPoem>
+          </ReactCardFlip>
+        </div>
+
 
 
         <div class="panel b">
@@ -37,8 +65,8 @@ class Projects extends Component {
 
 
         <footer class="footer">
-          <p>jesspoe00@gmail.com </p>
-          <p>(321) 863-5375</p>
+          <h3>Email: jesspoe00@gmail.com </h3>
+
 
         </footer>
       </div>

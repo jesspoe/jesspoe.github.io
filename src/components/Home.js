@@ -41,7 +41,7 @@ class Home extends Component {
             <li>
               <Link title="Projects" to="/projects/">
                 <FontAwesomeIcon className="icons" size="6x" icon={['fas', 'code']} />
-                <p>Project</p>
+                <p>Projects</p>
               </Link>
             </li>
           </ul>
