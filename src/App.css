@@ -4,7 +4,9 @@
 body,html {
   padding: 0;
   margin: 0;
-  background-image: URL("./image/background.jpg");
+  /* background-image: URL("./image/background.jpg"); */
+  background-image: linear-gradient(to bottom, #939cd4, #9ca8da, #a7b4df, #b2bfe4, #becbe9, #c1d3ed, #c5daf1, #cae1f4, #c7e6f6, #c5ebf6, #c5f0f4, #c8f4f1);
+  background-repeat: no-repeat;
   font-family: 'Nixie One', cursive;
 
 }
@@ -46,16 +48,14 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  grid-template-rows: 100px 450px 450px 100px;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
+  grid-template-columns:repeat(2, 1fr);
+  grid-template-rows: 8% 44% 44% 4%;
+  grid-gap: 12px;
 }
 
 .header {
   grid-row: 1/1;
   grid-column: 1 / 4;
-  padding: 20px;
   background-color: whitesmoke;
   opacity: .7;
 }
@@ -71,43 +71,45 @@ a {
 .panel{
   height: 100%;
   width: 100%;
+  border-radius: 5px;
 }
 
 .a {
   grid-row: 2/2;
   grid-column: 1 / 2;
-  margin: 10px;
+  margin-top: 10px;
+
+
 }
 
 .b{
   grid-row: 2/2;
   grid-column: 2 / 3;
-  margin: 10px;
-
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+  
 }
 
 .c{
   grid-row: 2/2;
   grid-column: 3 / 3;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .d{
   grid-row: 3/3;
   grid-column: 1 /2;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .e{
   grid-row: 3/3;
   grid-column: 2 /3;
-  margin: 10px;
+  margin-top: 10px;
 }
 
- img{
-  height: 400px;
-  width:500px;
-  margin: 3px;
+img {
   border-radius: 5px;
   box-shadow: 2px 2px 10px black;
 }
@@ -116,7 +118,6 @@ a {
   height: 400px;
   width: 500px;
   margin: 3px;
-  border-radius: 5px;
   box-shadow: 2px 2px 10px black;
   background-color: rgb(233, 211, 204);
   opacity: .7;
@@ -143,3 +144,86 @@ p {
 .card-link{
   text-decoration: underline;
 }
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: 10% 90%;
+ 
+}
+
+.about-header {
+  grid-row: 1/1;
+  grid-column: 1 / 5;
+  background-color: whitesmoke;
+  opacity: .7;
+}
+
+.photo {
+  grid-row: 2/2;
+  grid-column: 2/2;
+  padding: 20px;
+  align-content: space-evenly;
+  align-self: center;
+}
+
+.about-me{
+  grid-row: 2/2;
+  grid-column: 3/3;
+  justify-content: left;
+  height: 700px;
+  width: 500px;
+}
+
+.bio-text{
+  font-size: 1.1em;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.about{
+  padding: 10px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.color-link{
+  color: rgb(131, 5, 145);
+  font-weight: 500;
+}
+
+.project-card{
+align-content: center;
+}
+
+.box1,
+.box2 {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  transition: 600ms ease;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.box1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.box2 {
+  opacity: 0;
+  visibility: hidden;
+  background-color: whitesmoke;
+}
+
+.b:hover .box1 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.b:hover .box2 {
+  opacity: 1;
+  visibility: visible;
+}
+

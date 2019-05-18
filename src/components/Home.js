@@ -15,10 +15,10 @@ class Home extends Component {
         <div className="nav-container">
           <ul>
             <h2 className="name">Jessica Poe</h2>
-            <h3>Web Developer</h3>
+            <h4>Web Developer</h4>
             <li>
-              <a href={Resume} target="_blank"><FontAwesomeIcon className="icons" size="6x" icon={['fas', 'user']} /></a>
-              <p>Resume</p>
+              <a href='/about'><FontAwesomeIcon className="icons" size="6x" icon={['fas', 'user']} /></a>
+              <p>Bio</p>
             </li>
 
             <li>

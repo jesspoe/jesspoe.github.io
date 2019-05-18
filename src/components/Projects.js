@@ -29,13 +29,16 @@ class Projects extends Component {
     return (
       <div class="wrapper">
         <header class="header">
-          <Link title="Home" to="/"><h3>Home</h3>
-          </Link></header>
+          <ul>
+            <li><Link title="Home" to="/"><h3>Home</h3>
+            </Link></li>
+          </ul>
+        </header>
 
         <div class="panel a" >
           <ReactCardFlip isFlipped={this.state.isFlipped} flipSpeedFrontToBack=".9" flipDirection="horizontal">
-            <div key="front" onClick={this.handleClick}>
-              <img src={Poems} alt="Poems" />
+            <div className="project-card" key="front" onClick={this.handleClick}>
+              <img src={Poems} alt="Poems" height="400px" width="500px" />
             </div>
 
             <div key="back" className="back">
@@ -51,24 +54,36 @@ class Projects extends Component {
 
 
         <div class="panel b">
-          <img src={Veg} alt="Veg" /></div>
+          <div className="box1">
+            <img src={Veg} alt="Veg" height="400px" width="500px" />
+          </div>
+
+          <div className="box2">
+            <div>
+              <h3>VegOut!</h3>
+              <p>Ruby on Rails + React</p>
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+
 
 
         <div class="panel c">
-          <img src={Guestbook} alt="guestbook" /></div>
+          <img src={Guestbook} alt="guestbook" height="400px" width="500px" /></div>
 
         <div class="panel d">
-          <img src={Campy} alt="Campy" />
+          <img src={Campy} alt="Campy" height="400px" width="500px" />
 
         </div>
 
 
         <div class="panel e">
-          <img src={Pet} alt="Pet" /></div>
+          <img src={Pet} alt="Pet" height="400px" width="500px" /></div>
 
 
         <footer class="footer">
-          <h3>Email: jesspoe00@gmail.com </h3>
+          <a href="mailto: jesspoe00@gmail.com" className="color-link" >Contact Me</a>
 
 
         </footer>
