@@ -12,12 +12,14 @@ const About = () => {
       <header class="about-header">
         <ul>
           <li> <Link title="Home" to="/"><h3>Home</h3></Link></li>
+          <li> <Link title="Projects" to="/projects"><h3>Projects</h3></Link></li>
+
           <li><h3><a href={Resume} target="_blank">Resume</a></h3></li>
         </ul>
       </header>
 
       <div className="photo">
-        <img src={Jessica} alt="Jessica" height="400px" width="500px" />
+        <img className="photo-img" src={Jessica} alt="Jessica" height="400px" width="500px" />
       </div>
 
       <div className="about-me">
