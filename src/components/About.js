@@ -13,8 +13,9 @@ const About = () => {
         <ul>
           <li> <Link title="Home" to="/"><h3>Home</h3></Link></li>
           <li> <Link title="Projects" to="/projects"><h3>Projects</h3></Link></li>
-
           <li><h3><a href={Resume} target="_blank">Resume</a></h3></li>
+          <li><h3><a href="mailto: jesspoe00@gmail.com" >Contact Me</a></h3></li>
+
         </ul>
       </header>
 
