@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9525a6ee.chunk.css",
+    "main.js": "/static/js/main.ee75fe31.chunk.js",
+    "main.js.map": "/static/js/main.ee75fe31.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.685dc88d.chunk.js": "/static/js/2.685dc88d.chunk.js",
+    "static/js/2.685dc88d.chunk.js.map": "/static/js/2.685dc88d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4122efdf844310aa35391c36436d8df2.js": "/precache-manifest.4122efdf844310aa35391c36436d8df2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9525a6ee.chunk.css.map": "/static/css/main.9525a6ee.chunk.css.map",
+    "static/media/Resume.pdf": "/static/media/Resume.c97cfc60.pdf",
+    "static/media/App.css": "/static/media/background3.1aa51377.jpg",
+    "static/media/campy.png": "/static/media/campy.a99eab80.png",
+    "static/media/guestbook.png": "/static/media/guestbook.6cef2120.png",
+    "static/media/headshot2.jpg": "/static/media/headshot2.6c883e65.jpg",
+    "static/media/pet.png": "/static/media/pet.1f634b59.png",
+    "static/media/poems.png": "/static/media/poems.c7ba253d.png",
+    "static/media/veg.png": "/static/media/veg.4292cba7.png"
+  }
+}
