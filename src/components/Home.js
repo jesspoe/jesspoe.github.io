@@ -40,9 +40,9 @@ class Home extends Component {
               </a>
             </li>
             <li>
-              <Link title="Projects" to="/projects/">
+              <Link title="Projects" to="/portfolio">
                 <FontAwesomeIcon className="icons" size="6x" icon={['fas', 'code']} />
-                <p>Projects</p>
+                <p>Portfolio</p>
               </Link>
             </li>
           </ul>

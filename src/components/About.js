@@ -1,7 +1,8 @@
 import React from 'react';
 import Resume from '../resume/Resume.pdf';
 import Jessica from '../image/headshot2.jpg'
-import { Link } from 'react-router-dom'
+import { slide as Menu } from 'react-burger-menu';
+
 
 
 
@@ -10,13 +11,18 @@ const About = () => {
     <div className="about-wrapper">
 
       <header class="about-header">
-        <ul>
-          <li> <Link title="Home" to="/"><h3>Home</h3></Link></li>
-          <li> <Link title="Projects" to="/projects"><h3>Projects</h3></Link></li>
-          <li><h3><a href={Resume} target="_blank">Resume</a></h3></li>
-          <li><h3><a href="mailto: jesspoe00@gmail.com" >Contact Me</a></h3></li>
+        <Menu>
+          <a className="menu-item" href="/">
+            Home</a>
 
-        </ul>
+          <a className="menu-item" href="/portfolio">
+            Portfolio</a>
+
+          <a className="menu-item" href={Resume} target="_blank">
+            Resume</a>
+
+
+        </Menu>
       </header>
 
       <div className="photo">
@@ -34,8 +40,24 @@ const About = () => {
         </div>
       </div>
 
+      <div className="about-footer">
+        <footer className="footer-distributed">
+
+          <div className="footer-left">
+
+            <p className="footer-links">
+              <a href="mailto:jesspoe00@gmail.com">Jesspoe00@gmail.com</a>
+              <p>Seattle, WA 98103</p>
+              <p>321-863-5375</p>
+            </p>
+          </div>
+          <p className="footer-right">Jessica Poe &copy; 2019</p>
+        </footer>
+      </div>
     </div>
-  );
+
+
+  )
 }
 
 export default About;
