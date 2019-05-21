@@ -31,7 +31,6 @@ const Modal = props => {
               <li>Custom routes and controller logic via Rails to return specific data from fetches</li><br />
               <li>Google Maps and Geocode API</li><br />
               <li>User authentication and password encryption supported with BCrypt and Json Web Tokens (JWT)</li><br />
-              <li>Rails ActiveMailer</li>
             </ul>
             Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
             <button className="learn-button" ><a href='https://veggout.herokuapp.com/' target="_blank">Try it Now</a></button>
