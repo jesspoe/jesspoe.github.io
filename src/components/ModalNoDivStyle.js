@@ -12,10 +12,10 @@ const Modal = props => {
               <ul>
               <li>React.js to asynchronously manage state across multiple components</li>
               <li>Ruby on Rails API to route PostgreSQL database transactions to React frontend</li>
-              <li>Custom routes and controller logic via Rails to return specific data from fetches</li>
+              <li>RESTful routes and controller logic via Rails to return specific data from fetches</li>
               <li>Click the words in the poem to hear MDN SpeechSynthsis in action</li>
             </ul>
-            Hosted on Heroku. Loading times may vary. Page refresh may be necessary.<br />
+            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Username: Jessica offers a display of full functionality.<br />
             <button className="learn-button" ><a href='https://poems4kids.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
           <br />
@@ -33,7 +33,7 @@ const Modal = props => {
               <li>User authentication and password encryption supported with BCrypt and Json Web Tokens (JWT)</li><br />
               <li>Rails ActiveMailer</li>
             </ul>
-            Hosted on Heroku. Loading times may vary. Page refresh may be necessary. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
+            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
             <button className="learn-button" ><a href='https://veggout.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
         </div>
@@ -60,7 +60,7 @@ const Modal = props => {
               <li>Embedded Google Maps</li><br />
               <li>Bcrypt Gem to secure users' passwords </li>
             </ul>
-            Hosted on Heroku. Loading times may vary. Page refresh may be necessary. Sample Log in available if you would prefer not to signup: Username: Tester | Password: Test
+            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Sample Log in available if you would prefer not to signup: Username: Tester | Password: Test
         <br /><button className="learn-button" ><a href='https://dry-island-18834.herokuapp.com/home' target="_blank">Try it Now</a></button>
           </p>
           <br />
