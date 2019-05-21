@@ -108,21 +108,6 @@ class Projects extends Component {
 
         </div>
 
-
-        <div class="e">
-          <div className="box1 fade-in three">
-            <img src={Pet} alt="Pet" height="230px" width="363px" />
-          </div>
-
-          <div className="box2">
-            <div>
-              <h3 className="backname">Pet Finder</h3>
-              <p className="skills">Pure Ruby</p>
-              <button onClick={() => this.selectModal('Modal E')} className="learn-button">Learn More</button>
-            </div>
-          </div>
-
-        </div>
         <Modal
           displayModal={this.state.modal}
           modalInfo={this.state.modalInfo}
