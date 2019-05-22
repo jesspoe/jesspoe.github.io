@@ -10,12 +10,12 @@ const Modal = props => {
           <p className="modal-desc"> Poems4Kids was created with the hope to teach young kids how to read, recoginze sight words, understand how rhyming works and to encourage writing!
               Notable Attributes include:
               <ul>
-              <li>React.js to asynchronously manage state across multiple components</li>
+              <li>React.js to asynchronously manage state across components</li>
               <li>Ruby on Rails API to route PostgreSQL database transactions to React frontend</li>
-              <li>RESTful routes and controller logic via Rails to return specific data from fetches</li>
+              <li>Custom routes and controller logic via Rails</li><br />
               <li>Click the words in the poem to hear MDN SpeechSynthsis in action</li>
             </ul>
-            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Username: Jessica offers a display of full functionality.<br />
+            Hosted on free Heroku server and may require a page refresh to wake up. Username: Jessica offers a display of full functionality.<br />
             <button className="learn-button" ><a href='https://poems4kids.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
           <br />
@@ -26,13 +26,13 @@ const Modal = props => {
           <p className="modal-desc"> VegOut was created out of my love for travel and vegan food!  A user can create a trip and then search and add restaurants to it they would like to visit.
               Notable Attributes include:
               <ul>
-              <li>React.js to asynchronously manage state across multiple components</li>
+              <li>React.js to asynchronously manage state across components</li>
               <li>Ruby on Rails API to route PostgreSQL database transactions to React frontend</li>
-              <li>Custom routes and controller logic via Rails to return specific data from fetches</li><br />
+              <li>Custom routes and controller logic via Rails</li><br />
               <li>Google Maps and Geocode API</li><br />
               <li>User authentication and password encryption supported with BCrypt and Json Web Tokens (JWT)</li><br />
             </ul>
-            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
+            Hosted on free Heroku server and may require a page refresh to wake up. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
             <button className="learn-button" ><a href='https://veggout.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
         </div>
@@ -59,7 +59,7 @@ const Modal = props => {
               <li>Embedded Google Maps</li><br />
               <li>Bcrypt Gem to secure users' passwords </li>
             </ul>
-            Hosted on free Heroku server. Loading times may vary and page refresh may be necessary. Sample Log in available if you would prefer not to signup: Username: Tester | Password: Test
+            Hosted on free Heroku server and may require a page refresh to wake up. Sample Log in available if you would prefer not to signup: Username: Tester | Password: Test
         <br /><button className="learn-button" ><a href='https://dry-island-18834.herokuapp.com/home' target="_blank">Try it Now</a></button>
           </p>
           <br />
