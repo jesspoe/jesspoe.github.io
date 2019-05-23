@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faMedium, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faUser, faCode } from '@fortawesome/free-solid-svg-icons';
-import Resume from '../resume/Resume.pdf';
 library.add(faGithub, faUser, faMedium, faCode, faLinkedinIn);
 
 
@@ -15,7 +14,7 @@ class Home extends Component {
         <div className="nav-container">
           <ul>
             <h2 className="name">Jessica Poe</h2>
-            <h4>Web Developer</h4>
+            <h4>Full Stack Developer</h4>
             <li>
               <a href='/about'><FontAwesomeIcon className="icons" size="6x" icon={['fas', 'user']} /></a>
               <p>Bio</p>
