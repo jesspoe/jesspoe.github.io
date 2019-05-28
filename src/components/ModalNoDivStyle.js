@@ -18,7 +18,6 @@ const Modal = props => {
             Hosted on free Heroku server and may require a page refresh to wake up. Username: Jessica offers a display of full functionality.<br />
             <button className="learn-button" ><a href='https://poems4kids.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
-          <br />
         </div>
       case 'Modal B':
         return <div className="modal-info">

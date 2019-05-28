@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import Campy from '../image/campy.png'
 import Guestbook from '../image/guestbook.png'
-import Pet from '../image/pet.png'
 import Veg from '../image/veg.png'
 import Poems from '../image/poems.png'
 import Resume from '../resume/Resume.pdf';
@@ -25,8 +24,8 @@ class Projects extends Component {
 
   render() {
     return (
-      <div class="wrapper">
-        <header class="about-header">
+      <div className="wrapper">
+        <header className="about-header">
           <Menu>
             <a className="menu-item" href="/">
               Home
@@ -44,66 +43,62 @@ class Projects extends Component {
           </Menu>
         </header>
         <h1 align='center' className="pro-name">Portfolio</h1>
-        <div class="a" >
+        <div className="a" >
           <div className="box1 fade-in one">
-            <img src={Poems} alt="poems" height="230px" width="363px" />
+            <img src={Poems} alt="poems" />
           </div>
 
           <div className="box2">
-            <div>
-              <h3 className="backname">Poems4Kids</h3>
-              <p className="skills">Ruby on Rails + React</p>
-              <button onClick={() => this.selectModal('Modal A')} className="learn-button">Learn More</button>
-
-            </div>
+            <h3 className="backname">Poems4Kids</h3>
+            <p className="skills">Rails + React</p>
+            <button onClick={() => this.selectModal('Modal A')} className="learn-button">Learn More</button>
           </div>
         </div>
 
 
 
-        <div class="b">
+        <div className="b">
           <div className="box1 fade-in three">
-            <img src={Veg} alt="Veg" height="230px" width="363px" />
+            <img src={Veg} alt="Veg" />
           </div>
 
           <div className="box2">
-            <div>
-              <h3 className="backname">VegOut!</h3>
-              <p className="skills">Ruby on Rails + React</p>
-              <button onClick={() => this.selectModal('Modal B')} className="learn-button">Learn More</button>
 
-            </div>
+            <h3 className="backname">VegOut!</h3>
+            <p className="skills">Rails + React</p>
+            <button onClick={() => this.selectModal('Modal B')} className="learn-button">Learn More</button>
+
           </div>
         </div>
 
 
 
-        <div class="c">
+        <div className="c">
           <div className="box1 fade-in one">
-            <img src={Guestbook} alt="guestbook" height="230px" width="363px" />
+            <img src={Guestbook} alt="guestbook" />
           </div>
           <div className="box2">
-            <div>
-              <h3 className="backname">Guest Book</h3>
-              <p className="skills">Pure JavaScript</p>
-              <button onClick={() => this.selectModal('Modal C')} className="learn-button">Learn More</button>
-            </div>
+
+            <h3 className="backname">Guest Book</h3>
+            <p className="skills">Pure JavaScript</p>
+            <button onClick={() => this.selectModal('Modal C')} className="learn-button">Learn More</button>
+
           </div>
 
         </div>
 
 
-        <div class="d">
+        <div className="d">
           <div className="box1 fade-in two">
-            <img src={Campy} alt="Campy" height="230px" width="363px" />
+            <img src={Campy} alt="Campy" />
           </div>
 
           <div className="box2">
-            <div>
-              <h3 className="backname">Campy</h3>
-              <p className="skills">Ruby on rails</p>
-              <button onClick={() => this.selectModal('Modal D')} className="learn-button">Learn More</button>
-            </div>
+
+            <h3 className="backname">Campy</h3>
+            <p className="skills">Ruby on Rails</p>
+            <button onClick={() => this.selectModal('Modal D')} className="learn-button">Learn More</button>
+
           </div>
 
         </div>
