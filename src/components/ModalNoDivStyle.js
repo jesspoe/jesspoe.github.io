@@ -31,7 +31,7 @@ const Modal = props => {
               <li>Google Maps and Geocode API</li><br />
               <li>User authentication and password encryption supported with BCrypt and Json Web Tokens (JWT)</li><br />
             </ul>
-            Hosted on free Heroku server and may require a page refresh to wake up. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: Test <br />
+            Hosted on free Heroku server and may require a page refresh to wake up. Sample Login available if you would prefer not to signup: Email: test@email.com | Password: test <br />
             <button className="learn-button" ><a href='https://veggout.herokuapp.com/' target="_blank">Try it Now</a></button>
           </p>
         </div>
