@@ -40,20 +40,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-footer">
-        <footer className="footer-distributed">
 
-          <div className="footer-left">
-
-            <p className="footer-links">
-              <a href="mailto:jesspoe00@gmail.com">Jesspoe00@gmail.com</a>
-              <p>Seattle, WA 98103</p>
-              <p>321-863-5375</p>
-            </p>
-          </div>
-          <p className="footer-right">Jessica Poe &copy; 2019</p>
-        </footer>
-      </div>
     </div>
 
 

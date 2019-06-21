@@ -9,6 +9,7 @@ import About from './components/About'
 
 
 
+
 import './App.css';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/portfolio" exact component={Projects} />
+
       </Router>
 
     );
