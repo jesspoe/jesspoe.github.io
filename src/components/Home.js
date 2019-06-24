@@ -13,10 +13,10 @@ class Home extends Component {
   render() {
     return (
       <div className="nav-container">
+        <h2 className="name">Jessica Poe</h2>
+        <h4 classname="title">Full Stack Developer</h4>
+        <div className='bar'></div>
         <ul >
-          <h2 className="name">Jessica Poe</h2>
-          <h4 classname="title">Full Stack Developer</h4>
-          <div className='bar'></div>
           <li className="home-icons">
             <a title="Github" target="_blank" href="https://github.com/jesspoe">
               <FontAwesomeIcon className="icons" size="6x" icon={['fab', 'github']} />
@@ -48,7 +48,6 @@ class Home extends Component {
               <p>Portfolio</p>
             </Link>
           </li>
-
         </ul>
       </div>
     );
