@@ -18,19 +18,19 @@ class Home extends Component {
         <div className='bar'></div>
         <ul >
           <li className="home-icons">
-            <a title="Github" target="_blank" href="https://github.com/jesspoe">
+            <a title="Github" target="_blank" rel="noopener" href="https://github.com/jesspoe">
               <FontAwesomeIcon className="icons" size="6x" icon={['fab', 'github']} />
               <p>Github</p>
             </a>
           </li>
           <li className="home-icons">
-            <a title="My Blog" target="_blank" href="https://medium.com/@jesspoe00">
+            <a title="My Blog" target="_blank" rel="noopener" href="https://medium.com/@jesspoe00">
               <FontAwesomeIcon className="icons" size="6x" icon={['fab', 'medium']} />
               <p>Blog</p>
             </a>
           </li>
           <li className="home-icons">
-            <a title="LinkedIn" target="_blank" href="https://linkedin.com/in/poejessica/">
+            <a title="LinkedIn" target="_blank" rel="noopener" href="https://linkedin.com/in/poejessica/">
               <FontAwesomeIcon className="icons" size="6x" icon={['fab', 'linkedin-in']} />
               <p>LinkedIn</p>
             </a>
