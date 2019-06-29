@@ -68,7 +68,7 @@ class Projects extends Component {
             </Card.Body>
           </Card>
         </div>
-
+      
 
         <div className="c">
           <Card className="box2">
