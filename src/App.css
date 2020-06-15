@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nixie+One|Playfair+Display+SC|Questrial|Quicksand|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Comfortaa|Quicksand|Cinzel|Nixie+One|Playfair+Display+SC|Questrial|Quicksand|Work+Sans');
+
+
 
 
 body,html {
   padding: 0;
   margin: 0;
-  /* background-image: linear-gradient(to bottom, #939cd4, #9ca8da, #a7b4df, #b2bfe4, #becbe9, #c1d3ed, #c5daf1, #cae1f4, #c7e6f6, #c5ebf6, #c5f0f4, #c8f4f1); */
-  /* background-image: URL('image/background3.jpg'); */
-  background: rgb(206,209,208);
-  background: radial-gradient(circle, rgba(206,209,208,0.6348914565826331) 50%, rgba(255,190,198,0.3799894957983193) 100%);
+  background-color: rgb(240, 243, 242);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
@@ -29,12 +28,18 @@ body,html {
   margin-bottom: 20px;
 }
 .icons:hover{
-  transform: scale(1.5);
+  transform: scale(1.5); 
 }
+
+#wrapper {width: 100%; margin: auto;}
+#left { width: 60%; float: left;}
+#right { width: 40%; float: right}
 
 .home-icons {
   list-style-type: none; 
+  font-family: Quicksand,Cinzel, Montserrat, Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
+  font-weight: bold;
 }
 
 a {
@@ -42,24 +47,32 @@ a {
  color: black;
 }
 
-.nav-container {
-  text-align: center;
-  justify-content: center;
+.container {
+  height: 100%; 
+}
+
+.blog-container{
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  
 }
 
 .name {
-  font-size: 5em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.5em;
+  font-family: Cinzel, Montserrat, Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   color: rgb(56, 50, 50);
+  padding-left: 1em;
+  padding-top: .5em;
 }
 
 .pro-name{
   grid-column: 2/5;
   grid-row: 1/1; 
   font-size: 3em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   letter-spacing: 4px;
 
@@ -147,12 +160,6 @@ img{
   border-radius: 5px;
   box-shadow: 2px 2px 10px black;
 }
-
-p {
-  padding: 10px;
-  margin: 2px;
-}
-
 
 .about-wrapper {
   display: grid;

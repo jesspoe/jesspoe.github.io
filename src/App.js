@@ -13,7 +13,6 @@ class App extends Component {
       <Router>
         <Route path="/" exact component={Home} />
         <Route path="/portfolio" exact component={Projects} />
-
       </Router>
 
     );
